@@ -1,24 +1,19 @@
 {
-  "name": "basics",
+  "name": "graphql-complete-guide",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Install these packages",
   "main": "app.js",
   "scripts": {
-    "start": "babel-node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tweneboah/graphql-complete-guide.git"
   },
   "author": "Emmanuel Tweneboah",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/tweneboah/graphql-complete-guide/issues"
   },
-  "homepage": "https://github.com/tweneboah/graphql-complete-guide#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "graphql-yoga": "^1.18.3"
-  }
+  "homepage": "https://github.com/tweneboah/graphql-complete-guide#readme"
 }
