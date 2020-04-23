@@ -1,27 +1,27 @@
-const { GraphQLServer } = require("graphql-yoga");
+// const { GraphQLServer } = require("graphql-yoga");
+console.log("hhh");
+// //Type Definition
+// const typesDefs = `
+// type Query {
+//     hello: String!
+// }
+// `;
 
-//Type Definition
-const typesDefs = `
-type Query {
-    hello: String!
-}
-`;
+// //Resolvers
 
-//Resolvers
+// const resolvers = {
+//   Query: {
+//     hello() {
+//       return "Hello";
+//     },
+//   },
+// };
 
-const resolvers = {
-  Query: {
-    hello() {
-      return "Hello";
-    },
-  },
-};
+// const server = new GraphQLServer({
+//   typeDefs: typesDefs,
+//   resolvers: resolvers,
+// });
 
-const server = new GraphQLServer({
-  typeDefs: typesDefs,
-  resolvers: resolvers,
-});
-
-server.start(() => {
-  console.log("Graphql Server is running");
-});
+// server.start(() => {
+//   console.log("Graphql Server is running");
+// });
