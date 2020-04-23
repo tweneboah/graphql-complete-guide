@@ -1,6 +1,6 @@
 # Setting up babel to use ES6 in node
 
-## Install these packages
+## Install these packages...
 
 i. babel-cli
 ii. babel-preset-env
