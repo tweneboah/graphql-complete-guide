@@ -4,7 +4,8 @@
   "description": "## Install these packages",
   "main": "app.js",
   "scripts": {
-    "start": "babel-node app.js"
+    "start": "babel-node app.js",
+    "dev": "nodemon app.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }

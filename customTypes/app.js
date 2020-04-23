@@ -1,19 +1,6 @@
 const { GraphQLServer } = require("graphql-yoga");
 
-//REQUIREMT
-
-//It needs
-//1. Type definition
-//These are the operations to be perform on our api
-
-//2. Resolvers
-//Functions that runs on any query runs
-
-//Type Definition
-
-//Types of data types
-//1. Scalar types: This stores a single value
-//String, int, boolean,Float ID this is use for unique identifier
+//Custom Types
 
 //Query definition
 const typeDefs = `
