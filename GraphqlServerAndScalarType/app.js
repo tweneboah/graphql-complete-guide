@@ -1,7 +1,9 @@
 const { GraphQLServer } = require("graphql-yoga");
 console.log("hhh");
 
-//REQUIREMT
+// Scalart Types
+
+//1. String, Boolean, Int, Float, ID = 5 scalar value because it stores a single value
 
 //It needs
 //1. Type definition
